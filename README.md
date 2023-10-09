@@ -1,3 +1,4 @@
+### Nginnx Configuration
 
 Certainly! NGINX is highly versatile and serves multiple purposes, from web servers to reverse proxies and beyond. Below are some of the most common use-cases for NGINX, combined with a brief configuration for each:
 
