@@ -117,7 +117,8 @@ server {
 Prevent specific IPs or ranges from accessing the server:
 
 
-```server {
+```
+server {
     listen 80;
     deny 192.168.1.1;
     allow all;
@@ -128,9 +129,9 @@ Prevent specific IPs or ranges from accessing the server:
 
 Serve applications that need WebSocket:
 
-nginxCopy code
 
-```server {
+```
+server {
     listen 80;
     location /ws/ {
         proxy_pass http://websocket_backend;
@@ -145,7 +146,8 @@ nginxCopy code
 
 Reduce the size of the transferred data:
 
-```http {
+```
+http {
     gzip on;
     gzip_types text/plain application/xml text/css application/javascript;
 }
